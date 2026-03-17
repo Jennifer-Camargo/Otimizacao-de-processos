@@ -1,19 +1,19 @@
-# Otimização de Processos Produtivos via Análise de Dados
+# Otimização de processos e controle estatístico via Data Analytics
 
-Este projeto demonstra a aplicação de ferramentas de Data Analytics para a melhoria contínua e controle estatístico de processos em um ambiente voltado para a qualidade.
+Este projeto aplica técnicas de Ciência de Dados para monitorar a capabilidade de processos produtivos, identificando desvios de qualidade antes que se tornem prejuízos financeiros.
 
-## Objetivo
-Identificar variações críticas em indicadores de performance (KPIs) e automatizar o relatório de conformidade, substituindo processos manuais por consultas em SQL e análises em Python.
+## Contexto de Negócio
+Em sistemas de Gestão da Qualidade, a análise manual de indicadores (KPIs) costuma ser lenta e reativa. Este projeto automatiza a coleta e análise de dados para permitir uma atuação proativa sobre as não-conformidades.
 
-## Ferramentas Utilizadas
-- **SQL:** Extração e filtragem de dados de produção.
-- **Python (Pandas & Plotly):** Processamento estatístico e visualização de tendências.
-- **Power BI:** Dashboard para monitoramento executivo.
+## Tech Stack
+- **SQL:** Extração de dados históricos de produção e filtros de conformidade.
+- **Python (Pandas/Matplotlib):** Cálculo de desvio padrão, média móvel e índices Cp/Cpk.
+- **Power BI:** Visualização executiva para tomada de decisão em tempo real.
 
-## Estrutura do Projeto
-- `scripts/`: Consultas SQL para tratamento de dados.
-- `notebooks/`: Análise exploratória e cálculo de Capabilidade (Cp/Cpk).
-- `dashboards/`: Visualização final dos indicadores.
+## Principais Entregas
+1. **Script SQL:** Limpeza e padronização de dados brutos de sensores/auditoria.
+2. **Análise Estatística:** Identificação de causas especiais de variação.
+3. **Dashboard:** Monitoramento de taxas de refugo e eficiência global (OEE).
 
 ---
-*Status do Projeto: Em desenvolvimento*
+*Este é um projeto de portfólio focado na transição estratégica da Gestão da Qualidade para a Análise de Dados.*
